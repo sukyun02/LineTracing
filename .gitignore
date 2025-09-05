@@ -1,3 +1,26 @@
+# Arduino build files
+*.hex
+*.elf
+*.eep
+
+# Arduino IDE specific
+*.ino.cpp
+*.ino.d
+*.ino.o
+
+# VSCode / PlatformIO
+.vscode/
+.pio/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup / temp files
+*.bak
+*.swp
+*.tmp
+
 # Prerequisites
 *.d
 
