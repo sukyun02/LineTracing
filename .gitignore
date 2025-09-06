@@ -4,9 +4,9 @@
 *.eep
 
 # Arduino IDE specific
-*.ino.cpp
-*.ino.d
-*.ino.o
+# *.ino.cpp
+# *.ino.d
+# *.ino.o
 
 # VSCode / PlatformIO
 .vscode/
