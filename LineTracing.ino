@@ -1,11 +1,20 @@
+void Led_On(){
+  digitalWrite(10, HIGH);
+}
+void Led_OFF(){
+  digitalWrite(10, LOW);
+}
+
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  pinMode(10, OUTPUT);
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.print("Hello");
+  Led_On();
+  delay(100);
+  Led_OFF();
   delay(100);
 }
